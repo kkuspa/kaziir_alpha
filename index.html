@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <!--Fonts---->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+
+  <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.16.min.js"></script>
+  <script type="text/javascript">
+    Parse.initialize("4sftOeX7AkMkvDGeSeyBDGo3m888oW8mLmt9Ab3m", "YDEQr8TRZ7JFslar0Qdw4ZbgbFOtEaJ9mBSujeIi");
+   </script>
+  <script type="text/javascript" src="userscripts.js"></script>
+
+
+    <title>Kaziir</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles sheet -->
+    <link href="index.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" id="kaziir" href="index.html">kaziir</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Sign Up</a></li>
+            <li><a href="about.html">Learn More</a></li>
+            <li><a href="team.html">Who We Are</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <h1> Kaziir lets you show recruiters that you are more <br>than just a resume. </h1>
+
+
+
+    <div class="container" id="stuff">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <img class="graphic" src="passions.png" alt="What is YOUR Passion?">
+        </div>
+        <div class="col-md-4">
+          
+       </div>
+        <div class="col-md-4">
+          <form class="form-signup" role="form" id="signup-form" onsubmit="SignUp()">
+              <p class="form-tag" id="usermsg"> Sign up now for an invite to our <br>alpha launch</p>
+                <div class="form-group">
+                  <input type="fname" class="form-control" id="firstname" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                  <input type="lname" class="form-control" id="lastname" placeholder="Last Name">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <input type="class" class="form-control" id="grad" placeholder="Class of (example: 2015)">
+                </div>
+                <div class="form-group">
+                  <input type="major" class="form-control" id="major" placeholder="Major">
+                </div>
+                <div class="submit-container">
+                  <button type="submit" class="btn btn-success">Join Us</button>
+                  </label>
+                </div>
+            </form>
+        </div>
+      </div>
+
+      <footer>
+        <p id="cp">&copy; Kai, Kevin, Alex and Alex 2014</p>
+      </footer>
+
+    </div>
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="userscripts.js"></script>
+  </body>
+</html>

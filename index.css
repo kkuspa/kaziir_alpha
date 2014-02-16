@@ -1,0 +1,59 @@
+body {
+  padding-top: 50px;
+  background: linear-gradient(White, #C7F1FF);
+  background-repeat: no-repeat;
+  height: 720px;
+}
+
+#kaziir {
+	font-family: 'Lato',sans-serif;
+	color: #00d2ff;
+}
+
+
+#stuff {
+	width:100%;
+}
+
+
+.graphic {
+
+	max-height: 500px;
+}
+
+.left {
+}
+
+.graphic {
+	margin-left: 100px;
+}
+
+.spacing {
+	width: 250px;
+}
+
+.right {
+padding-top: 50px;
+}
+
+.form-group {
+	max-width: 300px;
+}
+
+#cp {
+	font-family: 'Lato',serif;
+	font-size: 14px;
+}
+
+h1 {	
+	padding: 50px;
+	font-family: 'Lato',serif;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+p {	
+	font-family: 'Lato',sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}

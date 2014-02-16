@@ -1,0 +1,65 @@
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#kaziir {
+	font-family: 'Lato',sans-serif;
+	color: #00d2ff;
+}
+
+.minigraph {
+	font-size: 18px;
+	font-weight: 700;
+	color: #000000;
+}
+
+.tag {
+	float: left;
+	padding-top: 6px;
+	font-size: 34px;
+}
+
+
+.jumbotag {
+	/*padding-top: 20px;*/
+}
+
+.lead {
+	font-weight: 700;
+}
+
+.words {
+	float: left;
+	padding-left: 6px;
+}
+
+.period {
+	float: right;
+	padding-top: 80px;
+}
+
+.jumbotron {
+  background: linear-gradient(#e9f9ff, #f7fdff);
+}
+
+.img-140 {
+	width: 140px;
+	height: 140px;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	/*font-family: 'Lato', sans-serif;*/
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: #5abfff;
+}
