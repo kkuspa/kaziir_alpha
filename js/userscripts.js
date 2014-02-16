@@ -23,7 +23,7 @@ function SignUp() {
 	user.signUp(null, {
 	  success: function(user) {
 		// Hooray! Let them use the app now.
-		alert("Thank you for signing up! We'll send you an email once we launch Kaziir!");
+		alert("Thank you for signing up for Kaziir! We'll send you an email once we launch where you will be able to log into your account.");
 		form.submit();
 	  },
 	  error: function(user, error) {
