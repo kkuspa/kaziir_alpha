@@ -1,6 +1,7 @@
-function SignUp() {
+function SignUp(event) {
 	var user = new Parse.User();
-	var form = document.getElementById("signup-form")
+	var form = document.getElementById("signup-form");
+	//var event = event || window.event;
 	event.preventDefault();
 
 
@@ -23,8 +24,10 @@ function SignUp() {
 	user.signUp(null, {
 	  success: function(user) {
 		// Hooray! Let them use the app now.
-		alert("Thank you for signing up for Kaziir! We'll send you an email once we launch where you will be able to log into your account.");
-		form.submit();
+		// alert("Thank you for signing up for Kaziir! We'll send you an email once we launch where you will be able to log into your account.");
+		form.reset();
+		document.getElementById("usermsg").innerHTML = "Thank you for signing up for Kaziir! We'll send you an email with more details once we launch."
+		document.getElementById("usermsg").style.fontSize = "14pt"
 	  },
 	  error: function(user, error) {
 		// Show the error message somewhere and let the user try again.
