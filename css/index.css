@@ -14,14 +14,18 @@ body {
 #pic {
 	background-size: 100%;
 	background-size: contain;
-	height: 500px;
+	height: 350px;
 	background-position: top;
 	vertical-align: top;
 	background-image: url(../img/passions.png);
 	background-repeat: no-repeat;
 }
 
-
+@media (min-width: 768px) {
+	#pic {
+		height: 500px;
+	}
+}
 
 
 #stuff {
