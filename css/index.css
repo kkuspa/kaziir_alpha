@@ -6,7 +6,7 @@ body {
 }
 
 #kaziir {
-	font-family: 'Lato',sans-serif;
+	font-family: 'Roboto',sans-serif;
 	font-weight: 300;
 	color: #3BF2FF;
 }
@@ -58,20 +58,20 @@ padding-top: 50px;
 }
 
 #cp {
-	font-family: 'Lato',serif;
+	font-family: 'Roboto',serif;
 	font-size: 14px;
 	padding-top: 20px;
 }
 
 h1 {	
 	padding: 50px;
-	font-family: 'Lato',serif;
+	font-family: 'Roboto',serif;
 	font-size: 32px;
 	font-weight: bold;
 }
 
 p {	
-	font-family: 'Lato',sans-serif;
+	font-family: 'Roboto',sans-serif;
 	font-size: 24px;
 	font-weight: bold;
 }
